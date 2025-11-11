@@ -790,3 +790,21 @@ footer .arriba{
         width: 100%;
     }
 }
+
+/* === FONDO DE PARTÍCULAS === */
+/* Este div es el canvas donde se dibujan las partículas.
+   Lo fijamos detrás del contenido para que no lo tape. */
+#particles-js{
+    position: fixed;
+    inset: 0;              /* top, right, bottom, left: 0 */
+    width: 100%;
+    height: 100%;
+    z-index: -1;           /* detrás de todo el contenido */
+    pointer-events: none;  /* evita que bloquee clics en botones/enlaces */
+}
+
+/* Aseguramos que TODO el contenido quede por encima del fondo */
+body > *:not(#particles-js){
+    position: relative;
+    z-index: 1;
+}
