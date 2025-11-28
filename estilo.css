@@ -790,3 +790,22 @@ footer .arriba{
         width: 100%;
     }
 }
+
+/* === Partículas SOLO en la sección #inicio === */
+.inicio { 
+  position: relative;       /* crea contexto para el canvas */
+  overflow: hidden;         /* por si el canvas crece */
+}
+
+#inicio #particles-js {
+  position: absolute;
+  inset: 0;                 /* top/right/bottom/left: 0 */
+  z-index: 0;               /* debajo del contenido, encima del fondo de la sección */
+  pointer-events: none;     /* no bloquea clics en botones/enlaces */
+}
+
+/* El contenido del banner por encima del canvas */
+.inicio .contenido-banner {
+  position: relative;
+  z-index: 1;
+}

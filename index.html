@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-    <!-- FONDO -->
-    <div id="particles-js"></div> <!-- Asegúrate de que este div esté presente -->
-    
-    <!-- Asegúrate de que particles.js se carga antes de app.js -->
-    <script src="js/particles.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
 
+  <!-- FONDO (debe ir dentro del body y al principio) -->
+  <div id="particles-js"></div>
 
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
@@ -32,6 +26,7 @@
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                     <li><a href="#research" onclick="seleccionar()">RESEARCH</a></li>
+                    <li><a href="#research-2" onclick="seleccionar()">RESEARCH 2</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
                 </ul>
@@ -44,27 +39,27 @@
 
 <!-- SECCION INICIO -->
 <section id="inicio" class="inicio">
-    <div class="contenido-banner">
-        <div class="contenedor-img">
-            <img src="img/imagen8.jpg" alt="">
-        </div>
-        <h1>PABLO CABALEIRO</h1>
-        <h2>Mechanical - Biomedical - Software Engineer</h2>
-        <div class="redes">
-            <!-- Botón para enviar correo -->
-            <a href="mailto:pablocabaleironoda@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-            <!-- Botón para redirigir a LinkedIn en una nueva ventana -->
-            <a href="https://es.linkedin.com/in/pablo-andrés-cabaleiro-noda-0746841bb" target="_blank">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <!-- Botón para redirigir a GitHub en una nueva ventana -->
-            <a href="https://github.com/pablete64" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-        </div>        
-    </div>
+  <!-- Partículas solo en el hero -->
+  <div id="particles-js"></div>
+
+  <div class="contenido-banner">
+      <div class="contenedor-img">
+          <img src="img/imagen8.jpg" alt="">
+      </div>
+      <h1>PABLO CABALEIRO</h1>
+      <h2>Mechanical - Biomedical - Software Engineer</h2>
+      <div class="redes">
+          <a href="mailto:pablocabaleironoda@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://es.linkedin.com/in/pablo-andrés-cabaleiro-noda-0746841bb" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/pablete64" target="_blank">
+              <i class="fa-brands fa-github"></i>
+          </a>
+      </div>
+  </div>
 </section>
 
 
@@ -98,7 +93,7 @@
                         </li>
                         <li>
                             <strong>Position</strong>
-                            <span>Actively seeking employment</span>
+                            <span>Project Manager – Construction sector</span>
                         </li>
                     </ul>
                 </div>
@@ -143,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <a href="img/CV.pdf" download>
+            <a href="img/CV_PABLO_ANDRES_CABALEIRO_NODA.pdf" download>
                 <button>
                     Download CV <i class="fa-solid fa-download"></i>
                     <span class="overlay"></span>
@@ -262,7 +257,7 @@
                         <h4>MSc IRIV: Imagerie, Robotique, Ingénierie pour le Vivant</h4>
                         <span class="casa">École de Ingenieur, Télécom Physique Strasbourg </span>
                         <span class="fecha">2024 - 2025</span>
-                        <p>Completed the first year, receiving multidisciplinary training focused on research and innovation in scientific imaging. During this period, I developed skills in image processing and analysis, control of complex systems, robotics, emerging medical technologies, development of optical and nanophotonic systems, topography, photogrammetry, software development, data management, and artificial intelligence. This experience provided me with a strong foundation to contribute to R&D projects in both industrial environments and high-tech startups.</p>
+                        <p>Exchange during the first year, receiving multidisciplinary training focused on research and innovation in scientific imaging. During this period, I developed skills in image processing and analysis, control of complex systems, robotics, emerging medical technologies, development of optical and nanophotonic systems, topography, photogrammetry, software development, data management, and artificial intelligence. This experience provided me with a strong foundation to contribute to R&D projects in both industrial environments and high-tech startups.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -291,9 +286,22 @@
                     <h3>Work Experience</h3> <!-- Este encabezado estará centrado -->
 
                     <div class="item der">
+                        <h4>Construction Project Manager</h4>
+                        <span class="casa">Construction company (building, refurbishment & industrial projects)</span>
+                        <span class="fecha">January 2025 - present</span>
+                        <p>Currently working as a Project Manager in the construction sector, coordinating technical teams and supervising the execution of building and industrial works. My responsibilities include planning, budgeting, materials and resource management, technical reporting and quality control on site. I ensure that projects are delivered meeting deadlines, safety criteria and client specifications.
+                        <br><br>
+                        This position has strengthened my skills in organization, problem-solving, communication with subcontractors and suppliers, risk assessment and decision making under pressure. It has also allowed me to apply engineering knowledge on site and develop a strong multidisciplinary approach.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="item der">
                         <h4>Software Enginering</h4>
                         <span class="casa">Small engineering companies</span>
-                        <span class="fecha">2019 - present</span>
+                        <span class="fecha">September 2024 - January 2025</span>
                         <p>I have been able to perform freelance work that focuses explicitly on data management, sorting and execution, in order to optimize processes, thus reducing the workload and time to the company. In these projects, I have implemented customized solutions that allow a more efficient analysis of information, facilitating informed decision making. Likewise, I have also developed other types of software for managing information in reports, with the same objective of automating arduous processes. This includes the creation of tools that integrate data visualizations and automatic reports, improving the presentation of results and increasing the productivity of the team. Thanks to these experiences, I have acquired skills in various technologies and programming languages, which has allowed me to address different challenges effectively.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -303,7 +311,7 @@
                     <div class="item der">
                         <h4>Research internship in the research team, HELICoiD</h4>
                         <span class="casa">Instituto Universitario de Microelectrónica Aplicada de Canarias (IUMA)</span>
-                        <span class="fecha">2023 - 2024</span>
+                        <span class="fecha">September 2023 - June 2024</span>
                         <p>Research has been conducted in the field of hyperspectral imaging and robotic surgery guided by artificial intelligence, as well as the development of computer models and simulations for the analysis of biomedical systems. Throughout this process, specific skills in biomedical engineering have been acquired, including Python programming and mastery of the ROS system. In addition, we have collaborated with other members of the research group to exchange knowledge and enrich perspectives in the area.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -313,7 +321,7 @@
                     <div class="item der">
                         <h4>Academic support teacher for school and university</h4>
                         <span class="casa">Private Enterprise</span>
-                        <span class="fecha">2022 - 2023</span>
+                        <span class="fecha">September 2022 - May 2023</span>
                         <p>Taught mathematics, physics, and chemistry classes to students at different academic levels, including preparation for university entrance exams. Detailed and constructive feedback was provided to identify strengths and areas for improvement in their academic performance. Developed tailored lesson plans that catered to individual learning styles and needs, fostering an engaging and supportive learning environment. Utilized various teaching methods and resources, including hands-on experiments and interactive activities, to enhance students' understanding of complex concepts. Encouraged critical thinking and problem-solving skills, helping students build confidence in their abilities and achieve their academic goals.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -331,8 +339,8 @@
         <div class="contenido-seccion">
             <h2>Research</h2> <!-- Título de la sección -->
             
-            <h3 class="titulo-publicacion">Development of a hyperspectral image-guided robotic surgery system.</h3> <!-- Título de la publicación -->
-            <span class="fecha-publicacion">Publication date: 2024</span> <!-- Fecha de publicación -->
+            <h3 class="titulo-publicacion">DEVELOPMENT OF A HYPERSPECTRAL IMAGE-GUIDED ROBOTIC SURGERY SYSTEM</h3> <!-- Título de la publicación -->
+            <span class="fecha-publicacion">Publication date: 14.12.2023</span> <!-- Fecha de publicación -->
             
             <div class="fila">
                 <div class="col izquierda">
@@ -344,6 +352,34 @@
             </div>
         </div>
     </section>
+
+
+    <!-- SECCION RESEARCH 2 -->
+<section id="research-2" class="research research-2">
+  <div class="contenido-seccion">
+    <h2>Research</h2>
+    <h3 class="titulo-publicacion">THE EUROPEAN LEGAL FRAMEWORK FOR ARTIFICIAL INTELLIGENCE IN THE BIOMEDICAL SECTOR: IMPLICATIONS FOR SPAIN</h3>
+    <span class="fecha-publicacion">Publication date: 20.12.2024 </span>
+
+    <div class="fila">
+      <div class="col izquierda">
+        <img src="img/PORTADA2.jpg" alt="Portada del artículo" class="imagen-investigacion">
+      </div>
+      <div class="col derecha">
+        <p class="resumen">
+          This article analyzes how artificial intelligence is transforming the healthcare and biomedical sector, highlighting advances such as drug development, personalized medicine, and improved clinical trials. Despite the potential benefits, there are also significant challenges related to data privacy and accountability
+in automated decisions.
+The European Union has implemented regulations such as the General Data Protection Regulation and the AI Regulation to provide security and privacy to the end user, in this case, the patient. These regulations require companies responsible for development, as well as entities that use them, to provide transparency, human oversight, and rigorous testing.
+In Spain, regulations such as the Organic Law on Personal Data Protection and Guarantee of Digital Rights and the Biomedical Research Law adapt European guidelines to the local context, strengthening health data protection.
+However, these measures also create economic barriers, mainly affecting startups that must comply with high regulatory costs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
     <!-- SECCION PORTFOLIO -->
@@ -412,7 +448,7 @@
                 <input type="text" placeholder="Subject">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                 <button id="sendMessage">
-                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    Send message<i class="fa-solid fa-paper-plane"></i>
                     <span class="overlay"></span>
                 </button>
             </div>
@@ -449,27 +485,35 @@
     </div>
 </section>
 
-<!-- footer -->
+<!-- FOOTER -->
 <footer>
+    <!-- Botón para volver al inicio -->
     <a href="#inicio" class="arriba">
         <i class="fa-solid fa-angles-up"></i>
     </a>
+
+    <!-- Redes de contacto -->
     <div class="redes">
-        <!-- Botón para enviar correo -->
-        <a href="mailto:pablocabaleironoda@gmail.com">
+        <a href="mailto:pablocabaleironoda@gmail.com" title="Enviar correo">
             <i class="fa-solid fa-envelope"></i>
         </a>
-        <!-- Botón para redirigir a LinkedIn en una nueva ventana -->
-        <a href="https://es.linkedin.com/in/pablo-andrés-cabaleiro-noda-0746841bb" target="_blank">
+
+        <a href="https://es.linkedin.com/in/pablo-andrés-cabaleiro-noda-0746841bb" target="_blank" rel="noopener" title="LinkedIn">
             <i class="fa-brands fa-linkedin-in"></i>
         </a>
     </div>
 </footer>
 
+<!-- Scripts -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
 <script src="script.js"></script>
+
 <script>
-    document.getElementById('sendMessage').addEventListener('click', function() {
-        alert("ATENCIÓN: el correo no ha sido enviado, póngase en contacto directo enviando un correo a pablocabaleironoda@gmail.com");
+    // Aviso del formulario de contacto
+    document.getElementById('sendMessage').addEventListener('click', function () {
+        alert("ATTENTION: The email has not been sent. Please send a direct email to: pablocabaleironoda@gmail.com");
     });
 </script>
+
 
